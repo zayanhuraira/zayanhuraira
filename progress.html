@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Student Profile|TTA
+        </title>
+
+        <!--add icon-->
+
+        <link rel="icon" href="smallicon.PNG" type="image/png type"/>
+
+    </head>
+
+    <body>
+        <center>
+            <h1>Student Progress</h1>
+
+            <img src="image.png" width="400px" height="200px"/>
+            
+            <hr>
+            <a href="HLT1.html">Home</a>
+
+            <a href="profile.html">Profile</a>
+
+            <a href="progress.html">Progress</a>
+
+            <hr>
+
+            <!--Form-Input-->
+
+            <!--Form-Input types-->
+        <form>
+            Student Progress Updater:
+            <br>
+            <br>
+            Did Student Login:
+            Yes<input type="radio" name="g1"/>
+            No<input type="radio" name="g1"/>
+            <br>
+            <br>
+            Session Tracker:
+            Morning<input type="checkbox" name="session"/>
+            Afternoon<input type="checkbox" name="session"/>
+            Did not attend<input type="checkbox" name="session"/>
+            <br>
+            <br>
+            Did Student Upload Home Learning Task:
+            Yes<input type="radio" name="g2"/>
+            No<input type="radio" name="g2"/>
+            <br>
+            <p>Home Learning Task Remarks:</p><textarea name="Remarks" rows="10" cols="40"></textarea>
+            <br>
+            <br>
+            Remarks By:
+            <input type="text" name="lname" placeholder="Tutor Name"/>
+            <br>
+            <br>
+            Select Subject:
+            <select>
+                <option value="Pass">Pass</option>
+                <option value="Fail">Fail</option>
+            </select>
+
+            <br>
+            <br>
+
+            Select Grade:
+            <input list="Grade">
+            <datalist id="Grade">
+                <option value="Distinction"></option>
+                <option value="Merit"></option>
+                <option value="Pass"></option>
+                <option value="Fail"></option>
+            </datalist>
+            <br>
+
+            <br>
+            <input type="submit" value="Save"/>
+            <input type="reset" value="Clear"/>
+
+            <br>
+            <input type="checkbox"/>
+        </form>
+        <br>
+        <hr>
+
+        <footer>
+            <p>Created by TechTalent Academy Student</p>
+            <p>Copyright &copy; TechTalent Academy 2021</p>
+        </footer>
+
+        </center>
+    </body>
+</html>
